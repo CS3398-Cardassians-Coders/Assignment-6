@@ -1,10 +1,11 @@
 //Author: Zachary Stoebe
 //Group: Cardassians
 
-
 package threesolid;
 
-class SuperWorker implements IWorker, IFeedable
+// SuperWorker uses the Open Close Principle to extend Iworkable and Feedable
+// interfaces and the Single Responsibilty Principle.
+class SuperWorker implements IWorkable, IFeedable
 {
     SuperWorker() {
     }
@@ -13,7 +14,7 @@ class SuperWorker implements IWorker, IFeedable
 	System.out.println("I'm working REALLY hard.");
     }
 
-    public void eat() {
-	System.out.prinltn("I'm eating now.");
+    public void feed() {
+	System.out.println("I'm eating now.");
     }
 }
