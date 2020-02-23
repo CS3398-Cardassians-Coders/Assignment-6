@@ -8,9 +8,6 @@ class Manager {
 	IWorker worker;
 	IWorker robot;
 
-	public void Manager() {
-
-	}
 	public void setWorkerW(IWorker w) {
 		worker=w;
 	}
