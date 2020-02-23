@@ -1,16 +1,15 @@
 // Author: Jeremy Ecker
 package threesolid;
 
-// Implements the principle of Interface Segregation
+// Implements the principle of Interface Segregation and Single Responsibility
+interface IWorker extends IWorkable, IFeedable {}
 
-interface Iworker extends Iworkable, Ifeedable {}
-
-interface Iworkable
+interface IWorkable
 {
 	public void work();
 }
 
-interface Ifeedable
+interface IFeedable
 {
 	public void feed();
 }
