@@ -1,4 +1,5 @@
-package threesolid
+// Author: Jeremy Ecker
+package threesolid;
 
 // Implements the principle of Interface Segregation
 
