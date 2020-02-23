@@ -4,7 +4,7 @@
 
 package threesolid;
 
-class SuperWorker implements IWorker 
+class SuperWorker implements IWorker, IFeedable
 {
     SuperWorker() {
     }
