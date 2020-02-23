@@ -6,15 +6,24 @@ package threesolid;
 // appropriate sub functions.
 class Manager {
 	IWorker worker;
+	IWorker robot;
 
 	public void Manager() {
 
 	}
-	public void setWorker(IWorker w) {
+	public void setWorkerW(IWorker w) {
 		worker=w;
 	}
 
-	public void manage() {
+	public void manageW() {
 		worker.work();
+	}
+	
+	public void setWorkerR(IWorker r) {
+		robot=r;
+	}
+	
+	public void manageR() {
+		robot.work();
 	}
 }
