@@ -1,4 +1,4 @@
-// Author: Jeremy Ecker
+//Authors: James Michael, Austin Wallace, Jeremy Ecker, Zack Stoebe, Nicholas Sevilla
 
 package threesolid;
 
