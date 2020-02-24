@@ -6,7 +6,7 @@ package threesolid;
 // Responsibility for Robot workers. They do not 
 // Need to be fed, only work.
 
-class Robot implements Iworkable{
+class Robot implements IWorkable{
 
 	public void work() {
 
